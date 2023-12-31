@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal-e</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/89ba4c5518.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <p>
+                <h3 style="text-align:center;font-weight: bold">Welcome!</h3>
+                <p style="border-bottom:2px solid rgba(59, 173, 188, 0.5);"></p>
+            </p>
+            <p>
+                <label for="message-input">Start typing...</label>
+                <br>
+                <button><i class="fa-regular fa-message"></i></button><input id="message-input" type="text">
+            </p> 
+            <p>
+                <button onclick="getMessage()" type="button" class="btn btn-outline-info">Submit</button>
+            </p>
+            <p id="message-output" style="text-align: center;text-transform: uppercase;"></p>
+
+        </div>
+    </div>
+    <script src="scripts.js"> </script>
+</body>
+
+
+</html>

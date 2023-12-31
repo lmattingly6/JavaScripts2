@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    background: aquamarine;
+    font-family: 'Rubik Doodle Shadow';
+}
+
+.container{
+    border: 1px solid black;
+    width:95%;
+    display:flex;
+    margin:auto;
+    padding: 80px;
+    
+}
+
+.quotes{
+    
+    width: 800px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    color: grey;
+    background-color: bisque;
+    border: 10px solid #f4d1ae;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+.quotebtn{
+    text-align: center;
+    margin:auto;
+    
+    
+}
+
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}

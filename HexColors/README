@@ -1,0 +1,5 @@
+//this program generates random colors
+//while also giving the user the hexcode of the random color
+
+//this program also changes the color of the header
+//on an alternating interval of colors
